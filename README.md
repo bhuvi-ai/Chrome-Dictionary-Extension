@@ -27,6 +27,13 @@ This Chrome extension allows users to quickly look up the definitions of words b
    - Select any word on a webpage.
    - Click on the extension icon or use the predefined keyboard shortcut to activate the extension.
    - A pop-up window will appear with the definition of the selected word.
+## Screenshots
+
+   You can add screenshots of your project here to give users a visual representation of how it looks and works.
+
+![Screenshot 1]("C:\Users\Spyder\Pictures\Screenshot 2024-05-04 232854.png")
+![Screenshot 2](/path/to/screenshot2.png)
+
 
 ## Running app.py:
    1. Ensure that you have Python installed on your machine.
