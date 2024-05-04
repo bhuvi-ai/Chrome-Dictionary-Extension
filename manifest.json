@@ -1,0 +1,19 @@
+{
+    "manifest_version": 2,
+    "name": "Popover Extension version 3.0",
+    "version": "1.0",
+    "description": "Adds a popover feature to selected text on web pages.",
+    "permissions": ["activeTab", "storage"],
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    },
+    "content_scripts": [{
+        "matches": ["<all_urls>"],
+        "js": ["content.js"],
+        "css": ["styles.css"]
+    }],
+    "icons": {
+        "48": "icon48.png"
+    }
+}

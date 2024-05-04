@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Definitions</title>
+    <!-- Add any additional CSS stylesheets if needed -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Word Definitions</h1>
+        <div id="definitions-container">
+            <!-- Definitions will be displayed here -->
+        </div>
+    </div>
+
+    <!-- Add any JavaScript code here -->
+    <script>
+        // Fetch definitions from Flask server when the page loads
+        window.addEventListener('DOMContentLoaded', function() {
+            // Extract the selected word from the URL parameter
+            const urlParams = new URLSearchParams(window.location.search);
+            const selectedText = urlParams.get('word');
+            
+            // If a selected word is present, fetch definitions for it
+            if (selectedText) {
+                getDefinitions(selectedText);
+            }
+        });
+
+        function getDefinitions(selectedText) {
+            // Send request to Flask server to fetch definitions
+            fetch('http://localhost:5000/get_Definitions', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({
+                    words: [selectedText]
+                })
+            })
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Failed to fetch definition');
+                }
+                return response.json();
+            })
+            .then(data => {
+                // Display definitions on the page
+                displayDefinitions(data);
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                // Display error message or handle error accordingly
+            });
+        }
+
+        function displayDefinitions(definitions) {
+            const container = document.getElementById('definitions-container');
+            container.innerHTML = ''; // Clear existing content
+            
+            // Iterate over definitions and append them to the container
+            Object.entries(definitions).forEach(([word, definition]) => {
+                const definitionElement = document.createElement('div');
+                definitionElement.innerHTML = `<strong>${word}:</strong> ${definition}`;
+                container.appendChild(definitionElement);
+            });
+        }
+    </script>
+</body>
+</html> 
+
+
+
+
+
+
