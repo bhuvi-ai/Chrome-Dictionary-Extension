@@ -18,20 +18,19 @@ This Chrome extension allows users to quickly look up the definitions of words b
    cd chrome-dictionary-extension
 
 3. Load the extension in Chrome:
-   Open Chrome and go to chrome://extensions/
-   Enable Developer mode (toggle switch in the top right corner)
-   Click on "Load unpacked" and select the chrome-dictionary-extension directory
+   - Open Chrome and go to chrome://extensions/
+   - Enable Developer mode (toggle switch in the top right corner)
+   - Click on "Load unpacked" and select the chrome-dictionary-extension directory
 
 Usage
-   Using the Chrome Extension:
-   Select any word on a webpage.
-   Click on the extension icon or use the predefined keyboard shortcut to activate the extension.
-   A pop-up window will appear with the definition of the selected word.
+   - Using the Chrome Extension:
+   - Select any word on a webpage.
+   - Click on the extension icon or use the predefined keyboard shortcut to activate the extension.
+   - A pop-up window will appear with the definition of the selected word.
 
 Running app.py:
-   Ensure that you have Python installed on your machine.
-   Navigate to the chrome-dictionary-extension directory.
-   Run the app.py file:
+   1. Ensure that you have Python installed on your machine.
+   2. Navigate to the chrome-dictionary-extension directory.
+   3. Run the app.py file:
    ```bash
    python app.py
-
