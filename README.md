@@ -11,11 +11,11 @@ This Chrome extension allows users to quickly look up the definitions of words b
 ## Installation
 1. **Clone this repository** to your local machine:
    ```bash
-   git clone https://github.com/your-username/chrome-dictionary-extension.git
+   git clone https://github.com/bhuvi-ai/Chrome-Dictionary-Extension.git
 
 2. **Navigate to the Cloned Directory:
    ```bash
-   cd chrome-dictionary-extension
+   cd Chrome-Dictionary-Extension
 
 3. Load the extension in Chrome:
    - Open Chrome and go to chrome://extensions/
@@ -37,7 +37,7 @@ This Chrome extension allows users to quickly look up the definitions of words b
 
 ## Running app.py:
    1. Ensure that you have Python installed on your machine.
-   2. Navigate to the chrome-dictionary-extension directory.
+   2. Navigate to the Chrome-Dictionary-Extension directory.
    3. Run the app.py file:
    ```
 python app.py
