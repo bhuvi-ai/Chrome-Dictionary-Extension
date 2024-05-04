@@ -31,7 +31,7 @@ This Chrome extension allows users to quickly look up the definitions of words b
 
    You can add screenshots of your project here to give users a visual representation of how it looks and works.
 
-![Screenshot 1](ScreenShots/Screenshot 2024-05-04 232854.png)
+![Screenshot 1](https://github.com/bhuvi-ai/Chrome-Dictionary-Extension/blob/224592f2e5a4f950015c573b013a287c6a204506/ScreenShots/Screenshot%202024-05-04%20232854.png)
 ![Screenshot 2](/path/to/screenshot2.png)
 
 
