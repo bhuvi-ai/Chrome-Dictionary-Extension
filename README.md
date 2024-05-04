@@ -34,7 +34,13 @@ This Chrome extension allows users to quickly look up the definitions of words b
 ![Screenshot 1](https://github.com/bhuvi-ai/Chrome-Dictionary-Extension/blob/224592f2e5a4f950015c573b013a287c6a204506/ScreenShots/Screenshot%202024-05-04%20232854.png)
 ![Screenshot 2](https://github.com/bhuvi-ai/Chrome-Dictionary-Extension/blob/f615080819c853650e16011ca0cf263c6bc20fd5/ScreenShots/Screenshot%202024-05-04%20233010.png)
 
+# Requirements
 
+This project utilizes specific Python packages to function properly. These packages are listed in the `requirements.txt` file. To install the required dependencies, you can use the following command:
+
+```bash
+pip install -r requirements.txt
+```
 ## Running app.py:
    1. Ensure that you have Python installed on your machine.
    2. Navigate to the Chrome-Dictionary-Extension directory.
