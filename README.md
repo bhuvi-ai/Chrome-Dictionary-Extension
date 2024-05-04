@@ -31,7 +31,7 @@ This Chrome extension allows users to quickly look up the definitions of words b
 
    You can add screenshots of your project here to give users a visual representation of how it looks and works.
 
-![Screenshot 1]("C:\Users\Spyder\Pictures\Screenshot 2024-05-04 232854.png")
+![Screenshot 1](ScreenShots/Screenshot 2024-05-04 232854.png)
 ![Screenshot 2](/path/to/screenshot2.png)
 
 
