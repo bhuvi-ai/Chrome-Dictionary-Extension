@@ -29,7 +29,6 @@ This Chrome extension allows users to quickly look up the definitions of words b
    - A pop-up window will appear with the definition of the selected word.
 ## Screenshots
 
-   You can add screenshots of your project here to give users a visual representation of how it looks and works.
 
 ![Screenshot 1](https://github.com/bhuvi-ai/Chrome-Dictionary-Extension/blob/224592f2e5a4f950015c573b013a287c6a204506/ScreenShots/Screenshot%202024-05-04%20232854.png)
 ![Screenshot 2](https://github.com/bhuvi-ai/Chrome-Dictionary-Extension/blob/f615080819c853650e16011ca0cf263c6bc20fd5/ScreenShots/Screenshot%202024-05-04%20233010.png)
