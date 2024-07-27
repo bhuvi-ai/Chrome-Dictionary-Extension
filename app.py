@@ -55,17 +55,6 @@ def get_definitions():
             else:
                 definitions[word] = 'Definition not found'
 
-        # # Add definition 
-        # entered_phrase = ' '.join(words)
-        # entered_query = f"SELECT word, definition FROM dict_v1 WHERE word LIKE '%{entered_phrase}%' or word = '{word}'"
-        # cursor.execute(entered_query)
-        # entered_result = cursor.fetchall()
-
-        # if entered_result:
-        #     for result in entered_result:
-        #         definitions[result['word']] = result['definition']
-        # else:
-        #     definitions[entered_phrase] = 'Definition not found for entered phrase'
 
         print('Received words:', words)
         print('Resulting definitions:', definitions)
