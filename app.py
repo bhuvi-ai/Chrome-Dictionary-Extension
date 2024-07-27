@@ -10,7 +10,7 @@ import traceback
 # Initialize Flask app
 app = Flask(__name__)
 
-# Allow CORS for all domains (for development only, you should restrict this in production)
+# Allow CORS for all domains
 CORS(app)
 
 
